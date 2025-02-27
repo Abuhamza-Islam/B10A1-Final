@@ -84,18 +84,17 @@ main {
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
-
 }
-.skill-text{
-    width: 477px;
-    height: 219px;
+.skill-text {
+  width: 477px;
+  height: 219px;
 }
-.skill-header{
-    font-weight: 700;
-    font-size: 24px;
+.skill-header {
+  font-weight: 700;
+  font-size: 24px;
 }
-.learn-more-btn{
-    width: 244px;
+.learn-more-btn {
+  width: 244px;
   height: 59px;
   padding: 17px 24px 17px 24px;
   border-radius: 5px;
@@ -103,8 +102,100 @@ main {
   font-size: 20px;
   margin-top: 20px;
 }
-.learn-more-btn a{
-    text-decoration: none;
-    color: black;
+.learn-more-btn a {
+  text-decoration: none;
+  color: black;
+}
+.video-wrapper {
+  padding: 20px; /* Add padding around the video container */
+  background-color: #f0f0f0; /* Optional: Add a background color */
+  border-radius: 10px; /* Optional: Add border radius to the wrapper */
 }
 
+.video-container {
+  position: relative;
+  width: 100%; /* Takes full width of its parent */
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (height = 56.25% of width) */
+  overflow: hidden; /* Ensures the iframe stays within the container */
+  border-radius: 10px; /* Optional: Add border radius to the video container */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  border: none; /* Remove default iframe border */
+  border-radius: 10px; /* Match the container's border radius */
+}
+/* current learn section start here */
+.current-learn {
+    display: flex;
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #ffffff; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #e0e0e0; /* Light border */
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .current-learn:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-5px); /* Slight lift effect on hover */
+  }
+
+  .learn-skill-header{
+    font-weight: 800;
+    font-size:24px;
+  }
+  .learn-more{
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  /* support section start here */
+  /* Support Section */
+.support-section {
+    
+    margin-top: 20px;
+    height: 313px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  #support-text {
+    text-align: center; /* Center text horizontally */
+    color: white; /* Set text color to white */
+  }
+  
+  #current-target-header,
+  #current-target-para {
+    color: white; /* Ensure text is white */
+  }
+
+  input{
+    padding: 10px;
+    width: 548px;
+    height: 57px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .submit-btn{
+    width: 120px;
+    height: 60px;
+    color: black;
+    border-radius: 10px;
+  }
+  .submit-btn:hover{
+    background-color: wheat;
+  }
