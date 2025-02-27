@@ -199,3 +199,18 @@ main {
   .submit-btn:hover{
     background-color: wheat;
   }
+/* footer style */
+footer{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 30px 0 30px 0;
+}
+.footer-icon{
+    width: 157px;
+    display: flex;
+    justify-content: space-around;
+}
