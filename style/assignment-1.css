@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* shared style */
+
+/* navbar style */
+.download-btn {
+  width: 244px;
+  height: 59px;
+  padding: 17px 24px 17px 24px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.logo {
+  font-weight: 800;
+  font-size: 28px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 148px 20px 148px;
+}
+/* banner style */
+.banner {
+  background-image: url(../assets/Hero-bg.png);
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Set the width of the element */
+  height: 652px; /* Set the height of the element (e.g., full viewport height) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.banner-text {
+  width: 998px;
+  height: 309px;
+  padding: 10px;
+  text-align: center;
+}
+.banner-header {
+  font-weight: 800;
+  font-size: 48px;
+}
+.banner-text {
+  font-size: 16px;
+}
+.contact-btn {
+  width: 244px;
+  height: 65px;
+  padding: 21px 24px 21px 24px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #0d1321;
+  margin-top: 20px;
+}
+.contact-btn a {
+  text-decoration: none;
+  color: white;
+}
+/* main start here */
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.development-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+}
+.development-header {
+  font-weight: 800;
+  font-size: 32px;
+}
+.skill-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.skill-text{
+    width: 477px;
+    height: 219px;
+}
+.skill-header{
+    font-weight: 700;
+    font-size: 24px;
+}
+.learn-more-btn{
+    width: 244px;
+  height: 59px;
+  padding: 17px 24px 17px 24px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.learn-more-btn a{
+    text-decoration: none;
+    color: black;
+}
+
